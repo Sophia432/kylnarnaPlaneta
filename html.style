@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>  </title>
+    <link rel="stylesheet" href="style.css">
+
+
+<div class="main-div">
+</head>
+
+<body>
+<header>
+  
+
+</header>
+<main>
+    <p class="ky">Кулінарна планета </p>  
+    <p class="tex"> Що в меню на сьогодні ? </p>
+    <div class="menu">
+    <div class="menu-item">
+     <img  class="re"  src="https://cdn.egersund.ua/90054c1b-26b0-450e-aea5-7b17e72f5e00/600x450/600x450"/>
+     </br>
+     <p class="t">Супи </p>
+    </div>
+    <div class="menu-item">
+     <img class="re"  src="https://img.freepik.com/premium-photo/plate-greek-salad-white-background-top-view-concept-proper-nutrition_166116-2654.jpg?w=900"/>
+     </br>
+     <p class="t"> Салати </p>
+    </div>
+    <div   class="menu-item">
+     <img class="re"
+      src="https://st.depositphotos.com/1001719/3034/i/600/depositphotos_30349749-stock-photo-strawberry-cheesecake.jpg"/>
+     </br>
+     <p class="t" >Десерти </p>
+    </div>
+    <div  class="menu-item">
+     <img class="re"
+      src="https://st3.depositphotos.com/10304926/36277/i/600/depositphotos_362773384-stock-photo-russian-gingerbread-cookies-jam-plate.jpg"/>
+     </br>
+     <p class="t" >Випічка </p>
+    </div>
+    <div   class="menu-item">
+     <img  class="re"
+      src="https://static4.depositphotos.com/1015060/448/i/600/depositphotos_4483328-stock-photo-tropical-cocktail.jpg"/>
+     </br>
+     <p class="t" > Напої </p>
+    </div>
+    </div>
+    <p class="se"> Цікаве</p>
+    <div class="intresting">
+    <p class="intr"> </p>
+    </div>
+<div class="cen">
+    <p class="se"> Рецепт дня </p>
+    <div class="card day">
+      <img class="pho"  src="https://img-global.cpcdn.com/recipes/9cc27433b7c288cd/680x964cq70/chizkieik-orieo-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B5-%D1%84%D0%BE%D1%82%D0%BE-%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D0%B0.webp"/>
+        <p class="titlec">Десерти </p>
+        <p class="card-text"> Чізкейк "Орео" з кокосовою стружкою</p>
+      </div>
+    </div>
+</div>
+    <p class="tex">Нове для вас </p>
+    <div class="ele">
+    <div class="card syp ">
+      <img class="pho " src="https://images.unian.net/photos/2025_05/1746267906-4916.jpg?r=644920"/>
+        <p class="titlec"> Супи </p>
+        <p class="card-text "> Суп курячий з вермішеллю</p>
+      </div>
+    
+    <div class="card desert">
+      <img class="pho" src="https://rud.ua/uploads/under_recipe/Malinoviy_tort-morozivo_600x300_61cc2028604e5.jpg"/>
+        <p class="titlec"> Десерти</p>
+        <p class="card-text"> малиновий торт із морозивом</p>
+      </div>
+    
+    <div class="card vupichka">
+      <img class="pho" src="https://rud.ua/uploads/under_recipe/reciept-600x300-child-cookie-2_61a8bc82c38f0.jpg"/>
+        <p class="titlec">Випічка </p>
+        <p class="card-text"> печиво з листкового тіста</p>
+      </div>
+    
+    <div class="card salat">
+      <img class="pho" src="https://rud.ua/uploads/under_recipe/600.jpg"/>
+        <p class="titlec"> Салати</p>
+        <p class="card-text">картопляний салат зі сметаною та беконом </p>
+      </div>
+    
+    <div class="card napoi">
+      <img class="pho" src="https://rud.ua/uploads/under_recipe/Milk_shake_600x300.jpg"/>
+        <p class="titlec">Напої </p>
+        <p class="card-text"> Класичний мілкшейк із молоком та морозивом</p>
+      </div>
+    
+    <div class="card vupichka">
+      <img class="pho" src="https://rud.ua/uploads/under_recipe/reciept-600x300-child-cookie-3_61a8bc82c4396.jpg"/>
+        <p class="titlec">Випічка </p>
+        <p class="card-text"> Троянди з листкового тіста і яблук</p>
+      </div>
+    
+    <div class="card salat">
+      <img class="pho" src="https://rud.ua/uploads/under_recipe/2_shutterstock_656719096_600x300_V1-min.jpg"/>
+        <p class="titlec">Салати </p>
+        <p class="card-text">Салат із курячим м'ясом та фруктами </p>
+      </div>
+    
+    <div class="card syp ">
+      <img class="pho pho1" src="https://images.unian.net/photos/2024_04/1712733924-9664.jpg?r=291634"/>
+        <p class="titlec "> Супи</p>
+        <p class="card-text ">Суп із фрикадельками та вермішеллю </p>
+      </div>
+  
+    <div class="card napoi">
+      <img class="pho" src="https://rud.ua/uploads/under_recipe/klasychnyy-ehh-noh.jpg"/>
+        <p class="titlec">Напої </p>
+        <p class="card-text"> Класичний егг-ног</p>
+      </div>
+
+    <div class="card desert">
+      <img class="pho" src="https://rud.ua/uploads/under_recipe/PtashyneMoloko_600x300_5ff4334764298.jpg"/>
+        <p class="titlec">Десерти </p>
+        <p class="card-text">Торт «Пташине молоко»: класичний рецепт </p>
+      </div>
+    
+    <div class="card napoi">
+      <img class="pho" src="https://rud.ua/uploads/under_recipe/11.jpg"/>
+        <p class="titlec">Напої </p>
+        <p class="card-text"> Коктейль «Молочно-банановий»</p>
+      </div>
+    
+    <div class="card syp ">
+      <img class="pho " src="https://img-global.cpcdn.com/recipes/29a6effa9e5373f1/680x964f0.5_0.523831_1.0q70/viershkovii-ghribnii-sup-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B5-%D1%84%D0%BE%D1%82%D0%BE-%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D0%B0.webp"/>
+        <p class="titlec "> Супи</p>
+        <p class="card-text "> Грибний вершковий суп</p>
+      </div>
+    
+    </div>
+    </div>
+</main>
+<footer>
+        
+ </footer>
+</div>
+</div>
+<div class="sypu">
+<p> </p>
+<div class="ele ele1">
+    <div class="card card1 syp">
+      <img class="pho pho1" src="https://retsepty.in.ua/wp-content/uploads/2024/02/image-31-370x245.jpg"/>
+        <p class="titlec titlec1"> Супи </p>
+        <p class="card-text card-text1">Суп з червоної риби </p>
+      </div>
+
+<div class="card syp">
+      <img class="pho pho1" src="https://retsepty.in.ua/wp-content/uploads/2024/02/image-18.jpg"/>
+        <p class="titlec titlec1">Супи  </p>
+        <p class="card-text card-text1">Овочевий суп </p>
+      </div>
+
+      <div class="card1 card syp">
+      <img class="pho1 pho" src="https://retsepty.in.ua/wp-content/uploads/2023/10/image-2023-10-26T101540.783-255x168.jpg"/>
+        <p class="titlec1 titlec"> Супи </p>
+        <p class="card-text1 card-text"> Грибний суп</p>
+      </div>
+
+      <div class="card1 card syp">
+      <img class="pho1 pho" src="https://retsepty.in.ua/wp-content/uploads/2023/10/image-2023-10-11T100557.232-600x400.jpg"/>
+        <p class="titlec1 titlec"> Супи </p>
+        <p class="card-text1">Крем-суп з чеддером</p>
+      </div>
+
+      <div class="card1 card syp">
+      <img class="pho1 pho" src="https://retsepty.in.ua/wp-content/uploads/2024/01/image-2024-01-08T015626.844-600x400.jpg"/>
+        <p class="titlec1 titlec"> Супи </p>
+        <p class="card-text1 card-text">Класичний суп-пюре з гарбуза</p>
+      </div>
+
+      <div class="card1 card syp">
+      <img class="pho1 pho" src="https://static.nv.ua/shared/system/MediaPhoto/images/000/034/276/original/8c264ca141ff110da0891576b1f6fba2.png?q=85&stamp=20200123171421&f=webp"/>
+        <p class="titlec1 titlec"> Супи </p>
+        <p class="card-text1 card"> Гороховий суп з копченими реберцями
+ </p>
+      </div>
+
+      <div class="card1 card syp">
+      <img class="pho1 pho" src="https://static.nv.ua/shared/system/MediaPhoto/images/000/019/978/original/c2b233a6d83171460f1be7c29df250f8.png?q=85&stamp=20190904162447&f=webp"/>
+        <p class="titlec1 titlec"> Супи </p>
+        <p class="card-text1 card-text">Суп харчо за грузинським рецептом </p>
+      </div>
+
+<div class="card1 card syp">
+      <img class="pho1 pho" src="https://static.nv.ua/shared/system/MediaPhoto/images/000/069/271/original/f6a5417e6fd571611d01d667cc060f2a.png?q=85&stamp=20210111125250&f=webp"/>
+        <p class="titlec1 titlec"> Супи </p>
+        <p class="card-text1 card-text">Капусняк </p>
+      </div>
+
+      <div class="card1 card syp">
+      <img class="pho1 pho" src="https://kanapulka.com.ua/image/cache/wp/gj/recipe/french-onion-soup/french-onion-soup-1-1140x400.webp"/>
+        <p class="titlec1 titlec"> Супи </p>
+        <p class="card-text1 card-text">Французький цибулевий суп</p>
+      </div>
+
+      <div class="card1 card syp">
+      <img class="pho1 pho" src="https://kanapulka.com.ua/image/cache/wp/gj/recipe/tomato-soup/tomato-soup-1-1140x400.webp"/>
+        <p class="titlec1 titlec"> Супи </p>
+        <p class="card-text1 card-text"> Томатний суп</p>
+      </div>
+
+      <div class="card1 card syp">
+      <img class="pho1 pho" src="https://kanapulka.com.ua/image/cache/wp/gj/recipe/ramen/ramen-1-1140x400.webp"/>
+        <p class="titlec1 titlec"> Супи </p>
+        <p class="card-text1 card-text">Рамен з куркою</p>
+      </div>
+
+      <div class="card1 card syp">
+      <img class="pho1 pho" src="https://kanapulka.com.ua/image/cache/wp/gj/recipe/tomato-peach-gazpacho/tomato-peach-gazpacho-1-1140x400.webp"/>
+        <p class="titlec1 titlec"> Супи </p>
+        <p class="card-text1 card-text">Гаспачо з томатами та персиками</p>
+      </div>
+
+      <div class="card1 card syp">
+      <img class="pho1 pho" src="https://kanapulka.com.ua/image/cache/wp/gj/recipe/minestrone-soup/Olive-Garden-Minestrone-Soup-1-1140x400.webp"/>
+        <p class="titlec1 titlec"> Супи </p>
+        <p class="card-text1 card-text">Мінестроне</p>
+      </div>
+</div>
+</div>
+
+<div class="salatu"> 
+ <p> </p>
+ <div class="ele ele1">
+  <div class=" card1 salat">
+   <img class="pho"  src="https://retsepty.in.ua/wp-content/uploads/2024/07/image-2024-07-26T002637.954-255x143.webp"/>
+   <p class="titlec">Салати </p>
+   <p class="card-text"> Ніжинський салат  </p>
+  </div>
+  <div class="card salat">
+   <img class="pho"  src="https://retsepty.in.ua/wp-content/uploads/2024/02/image-52-370x247.jpg"/>
+   <p class="titlec"> Салати</p>
+   <p class="card-text">Салат з сиром фета  </p>
+  </div>
+  <div class="card salat">
+   <img class="pho"  src="https://retsepty.in.ua/wp-content/uploads/2023/10/image-2023-10-23T223539.564-600x400.jpg"/>
+   <p class="titlec">Салати </p>
+   <p class="card-text">Салат з ананасом і куркою </p>
+  </div>
+  <div class="card salat">
+   <img class="pho"  src="https://retsepty.in.ua/wp-content/uploads/2023/10/image-2023-10-12T105045.509-370x278.jpg"/>
+   <p class="titlec">Салати </p>
+   <p class="card-text">Салат з буряка </p>
+  </div>
+  <div class="card salat">
+   <img class="pho"  src="https://retsepty.in.ua/wp-content/uploads/2023/10/image-2023-10-11T104310.029-370x370.jpg"/>
+   <p class="titlec"> Салати</p>
+   <p class="card-text"> Салат з пекінської капусти</p>
+  </div>
+  <div class="card salat">
+   <img class="pho"  src="https://retsepty.in.ua/wp-content/uploads/2023/09/image-69-255x170.jpg"/>
+   <p class="titlec"> Салати</p>
+   <p class="card-text">Салат з тунцем </p>
+  </div>
+  <div class="card salat">
+   <img class="pho"  src="https://retsepty.in.ua/wp-content/uploads/2023/08/image-2023-08-25T112725.101-600x400.jpg"/>
+   <p class="titlec">Салати </p>
+   <p class="card-text">Класичний салат з крабовими паличками </p>
+  </div>
+  <div class="card salat">
+   <img class="pho"  src="https://retsepty.in.ua/wp-content/uploads/2023/08/image-2023-08-01T221732.103-600x400.jpg"/>
+   <p class="titlec">Салати </p>
+   <p class="card-text">Кімчі з пекінської капусти </p>
+  </div>
+  <div class="card salat">
+   <img class="pho"  src="https://retsepty.in.ua/wp-content/uploads/2023/07/image-2023-07-17T131313.035.jpg"/>
+   <p class="titlec">Салати </p>
+   <p class="card-text">Олів’є </p>
+  </div>
+  <div class="card salat">
+   <img class="pho"  src="https://rud.ua/uploads/under_recipe/prosti-retsepty-salativ-1.jpg"/>
+   <p class="titlec">Салати </p>
+   <p class="card-text">Салат «Феєрверк» </p>
+  </div>
+  <div class="card salat">
+   <img class="pho"  src="https://rud.ua/uploads/under_recipe/prosti-retsepty-salativ-2.jpg"/>
+   <p class="titlec">Салати </p>
+   <p class="card-text"> Салат із шинки, сиру та овочів
+</p>
+  </div>
+  <div class="card salat">
+   <img class="pho"  src="https://kanapulka.com.ua/image/cache/wp/gj/recipe/pumpkin-quinoa-salad/pumpkin-quinoa-salad-1-1140x400.webp"/>
+   <p class="titlec">Салати </p>
+   <p class="card-text">салат з гарбузом та кіноа </p>
+  </div>
+ </div>
+</div>
+
+<div class="desertu">
+  <div class="ele">
+    <div class="card desert">
+     <img class="pho"  src="https://img-global.cpcdn.com/recipes/ce715b77f65aa77b/680x964f0.5_0.49988_1.0q90/tort-bitie-sklo-na-ioghurti-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D0%B5-%D1%84%D0%BE%D1%82%D0%BE-%D1%80%D0%B5%D1%86%D0%B5%D0%BF%D1%82%D0%B0.webp"/>
+     <p class="titlec">Десерти </p>
+     <p class="card-text"> Торт "Бите скло на йогурті"</p>
+  </div>
+
+<div class="card desert">
+     <img class="pho"  src="https://lasunka.com/s2-1.png"/>
+     <p class="titlec"> Десерти</p>
+     <p class="card-text"> Яблучний штрудель з лаваша</p>
+  </div>
+
+  <div class="card desert">
+     <img class="pho"  src="https://lasunka.com/s2-2.png"/>
+     <p class="titlec">Десерти </p>
+     <p class="card-text">Сметанні кекси </p>
+  </div>
+
+  <div class="card desert">
+     <img class="pho"  src="https://lasunka.com/s2-3.png"/>
+     <p class="titlec"> Десерти</p>
+     <p class="card-text"> Сливова шарлотка</p>
+  </div>
+
+  <div class="card desert">
+     <img class="pho"  src="https://lasunka.com/s2-4.png"/>
+     <p class="titlec"> Десерти</p>
+     <p class="card-text"> Банановий пудинг в мікрохвильовці</p>
+  </div>
+
+  <div class="card desert">
+     <img class="pho"  src="https://lasunka.com/s2-5.png"/>
+     <p class="titlec"> Десерти</p>
+     <p class="card-text"> кекс в мікрохвильовці</p>
+  </div>
+
+  <div class="card desert">
+     <img class="pho"  src="https://lasunka.com/s2-7.png"/>
+     <p class="titlec">Десерти </p>
+     <p class="card-text"> Шоколадний торт</p>
+  </div>
+
+  <div class="card desert">
+     <img class="pho"  src="https://lasunka.com/s2-8.png"/>
+     <p class="titlec"> Десерти</p>
+     <p class="card-text">Торт з печива без випічки </p>
+  </div>
+
+  <div class="card desert">
+     <img class="pho"  src="https://lasunka.com/s2-9.png"/>
+     <p class="titlec"> Десерти</p>
+     <p class="card-text">Шоколадне печиво </p>
+  </div>
+
+  <div class="card desert">
+     <img class="pho"  src=""/>
+     <p class="titlec">Десерти </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card desert">
+     <img class="pho"  src=""/>
+     <p class="titlec"> Десерти</p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card desert">
+     <img class="pho"  src=""/>
+     <p class="titlec"> Десерти</p>
+     <p class="card-text"> </p>
+  </div>
+  </div>
+</div>
+
+<div class="vupichka2">
+ <div class="ele">
+    <div class="card vupichka">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card vupichka">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card vupichka">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card vupichka">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card vupichka">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card vupichka">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+<div class="card vupichka">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+<div class="card vupichka">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card vupichka">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card vupichka">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card vupichka">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card vupichka">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+ </div>
+</div>
+
+<div class="napoi2">
+<div class="ele">
+    <div class="card napoi">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card napoi">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card napoi">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card napoi">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card napoi">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card napoi">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card napoi">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card napoi">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card napoi">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card napoi">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card napoi">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+
+  <div class="card napoi">
+     <img class="pho"  src=""/>
+     <p class="titlec"> </p>
+     <p class="card-text"> </p>
+  </div>
+</div>
+</div>
+
+
+ <script>
+
+</body>
+</html>
