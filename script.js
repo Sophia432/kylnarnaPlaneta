@@ -24,7 +24,7 @@ r.innerHTML = intr[m]
 
 let day = document.querySelectorAll(".card")
 let menu = document.querySelectorAll(".menu-item")
-let main = document.querySelector(".main-div")
+let main = document.querySelector(".main")
 let sypu = document.querySelector(".sypu")
 let card = document.querySelectorAll(".card")
 let syp = document.querySelectorAll(".syp")
