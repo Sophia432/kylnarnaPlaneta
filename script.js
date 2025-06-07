@@ -36,6 +36,10 @@ let vupichka2 = document.querySelector(".vupichka2")
 let vupichka = document.querySelectorAll(".vupichka")
 let napoi2 = document.querySelector(".napoi2")
 let napoi = document.querySelectorAll(".napoi")
+let t = document.querySelectorAll(".t")
+let vi = document.querySelectorAll(".vi")
+let o = document.querySelector("main")
+let stril = document.querySelectorAll(".strilca")
 
 
 menu[0].addEventListener('click', function(){
@@ -108,4 +112,16 @@ menu[4].addEventListener('click', function(){
     }
 
     napoi2.style.display = "flex"
+})
+
+card[0].addEventListener('click', function(){
+    o.style.display = "none"
+
+    vi[0].style.display = "flex"
+})
+
+card[1].addEventListener('click', function(){
+    o.style.display = "none"
+
+    vi[1].style.display = "flex"
 })
