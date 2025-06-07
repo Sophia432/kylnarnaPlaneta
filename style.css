@@ -19,6 +19,7 @@ body{
 
 .t{
     font-size: 25px;
+    color: #000000;
 }
 
 .menu{
@@ -114,7 +115,6 @@ font-size: 35px;
 }
 
 .sypu{
-    background-color: #f79c3b;
     display: none;
 }
 
@@ -127,38 +127,13 @@ font-size: 35px;
 
 }
 
-.card1{
-    background-color: white;
-    max-width: 420px;
-    min-height: 360px;
-    border-radius: 7px;
-    text-align: center;
-    cursor: pointer;
-    margin: 15px;
-}
-
-.card1:hover{
-    box-shadow:  10px 10px rgba(0, 0, 0, 0.1);
-    transform: scale(1.07);
-    transition: 0.5s;
-}
-
 .pho1{
     width: 400px;
     height: 250px;
-}
-
-.titlec1{
-    color: lightskyblue;
-    font-size: 15px;
     text-align: center;
+    margin-left: 20px;
 }
 
-.card-text1{
-    font-size: 17px;
-    text-align: left;
-    position: absolute;
-}
 
 .main-div{
     display: flex;
@@ -182,4 +157,98 @@ font-size: 35px;
 
 .napoi2{
     display: none;
+}
+
+.pho2{
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.pho3{
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.pho4{
+    width: 400px;
+    height: 250px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+
+.tex1{
+    margin: 5px;
+    font-size: 35px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+
+.phovi{
+    width: 900px;
+    height: 600px;
+    display: block;
+}
+
+.pvi{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.hvi{
+    font-size: 25px;
+}
+
+.ytoch{
+    font-size: 20px;
+}
+
+li{
+    font-size: 15px;
+}
+
+.vi{
+    display: none;
+}
+
+.strilca{
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+
+container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+con2{
+    position: relative;
+}
+
+.section{
+    margin-left: 20px;
+    flex: 1;
+}
+
+.colums{
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.column{
+    flex: 1;
+}
+
+.arrow{
+    margin-top: 670px;
+    text-align: right;
 }
