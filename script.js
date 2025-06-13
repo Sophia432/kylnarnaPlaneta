@@ -61,7 +61,7 @@ menu[0].addEventListener('click', function(){
         syp[m].style.display = "block"
     }
 
-    sypu.style.display = "flex"
+    sypu.style.display = "block"
 })
 
 
