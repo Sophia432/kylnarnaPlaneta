@@ -40,17 +40,25 @@ let t = document.querySelectorAll(".t")
 let vi = document.querySelectorAll(".vi")
 let o = document.querySelector("main")
 let stril = document.querySelectorAll(".strilca")
+let int = document.querySelector(".int")
+let cen = document.querySelector(".cen")
 
 
 menu[0].addEventListener('click', function(){
-    main.style.display = "none"
+    salatu.style.display = "none"
+    desertu.style.display = "none"
+    vupichka2.style.display = "none"
+    napoi2.style.display = "none"
+    
+    int.style.display = "none"
+    cen.style.display = "none"
 
     for (let n = 0; n < card.length; n += 1){
         card[n].style.display = "none"
     }
     
     for(let m = 0; m < syp.length; m += 1){
-        syp[m].style.display = "flex"
+        syp[m].style.display = "block"
     }
 
     sypu.style.display = "flex"
@@ -58,28 +66,40 @@ menu[0].addEventListener('click', function(){
 
 
 menu[1].addEventListener('click', function(){
-    main.style.display = "none"
+    sypu.style.display = "none"
+    desertu.style.display = "none"
+    vupichka2.style.display = "none"
+    napoi2.style.display = "none"
+
+    int.style.display = "none"
+    cen.style.display = "none"
 
     for (let n = 0; n < card.length; n += 1){
         card[n].style.display = "none"
     }
     
     for(let m = 0; m < salat.length; m += 1){
-        salat[m].style.display = "flex"
+        salat[m].style.display = "block"
     }
 
     salatu.style.display = "flex"
 })
 
 menu[2].addEventListener('click', function(){
-    main.style.display = "none"
+    salatu.style.display = "none"
+    sypu.style.display = "none"
+    vupichka2.style.display = "none"
+    napoi2.style.display = "none"
+
+    int.style.display = "none"
+    cen.style.display = "none"
 
     for (let n = 0; n < card.length; n += 1){
         card[n].style.display = "none"
     }
     
     for(let m = 0; m < desert.length; m += 1){
-        desert[m].style.display = "flex"
+        desert[m].style.display = "block"
     }
 
     desertu.style.display = "flex"
@@ -87,28 +107,40 @@ menu[2].addEventListener('click', function(){
 
 
 menu[3].addEventListener('click', function(){
-    main.style.display = "none"
+    salatu.style.display = "none"
+    desertu.style.display = "none"
+    sypu.style.display = "none"
+    napoi2.style.display = "none"
+
+    int.style.display = "none"
+    cen.style.display = "none"
 
     for (let n = 0; n < card.length; n += 1){
         card[n].style.display = "none"
     }
     
     for(let m = 0; m < vupichka.length; m += 1){
-        vupichka[m].style.display = "flex"
+        vupichka[m].style.display = "block"
     }
 
     vupichka2.style.display = "flex"
 })
 
 menu[4].addEventListener('click', function(){
-    main.style.display = "none"
+    salatu.style.display = "none"
+    desertu.style.display = "none"
+    vupichka2.style.display = "none"
+    sypu.style.display = "none"
+
+    int.style.display = "none"
+    cen.style.display = "none"
 
     for (let n = 0; n < card.length; n += 1){
         card[n].style.display = "none"
     }
     
     for(let m = 0; m < napoi.length; m += 1){
-        napoi[m].style.display = "flex"
+        napoi[m].style.display = "block"
     }
 
     napoi2.style.display = "flex"
@@ -117,11 +149,31 @@ menu[4].addEventListener('click', function(){
 card[0].addEventListener('click', function(){
     o.style.display = "none"
 
+
     vi[0].style.display = "flex"
 })
 
 card[1].addEventListener('click', function(){
     o.style.display = "none"
 
+
     vi[1].style.display = "flex"
+})
+
+menu[5].addEventListener('click', function(){
+    main.style.display = "block"   
+
+    salatu.style.display = "none"
+    desertu.style.display = "none"
+    vupichka2.style.display = "none"
+    sypu.style.display = "none"
+    napoi2.style.display = "none"
+
+})
+
+
+card[2].addEventListener('click', function(){
+    o.style.display = "none"
+
+    vi[2].style.display = "flex"
 })
