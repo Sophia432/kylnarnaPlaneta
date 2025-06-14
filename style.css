@@ -163,8 +163,9 @@ font-size: 35px;
 
 
 .phovi{
-    width: 900px;
-    height: 600px;
+    width: 1100px;
+    height: 800px;
+    text-align: center;
     display: block;
 }
 
@@ -186,13 +187,8 @@ li{
 }
 
 .vi{
-    display: none;
-}
-
-.strilca{
-    width: 50px;
-    height: 30px;
-    cursor: pointer;
+   display: none;
+   position: relative;
 }
 
 container {
@@ -220,6 +216,4 @@ con2{
     flex: 1;
 }
 
-.arrow{
-    text-align: right;
-}
+
