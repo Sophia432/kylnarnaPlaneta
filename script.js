@@ -1,219 +1,214 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+const intr = ["Готування - це мистецтво, яке починається з голоду.",
+"Ідеальний рецепт - це інтуїція й любов.",
+"У кулінарії немає помилок, є лише нові смаки.",
+"У будь-якій незрозумілій ситувції краще поїсти.",
+"Тобі не потрібна срібна виделка, щоб їсти добре.",
+"Апетит приходить під час їжі - особливо, якщо їсте не ви",
+""
+]
 
 
 
-body{
-    background-color: #f79c3b;
-    font-family: "Dancing Script", cursive;
-}
+ function randNumber(min, max){
+        return Math.round(Math.random()*(max - min)  + min)
+    }
 
-.ky{
-    text-align: center;
-    font-size: 45px;
-}
+let m = randNumber(0, 5)
 
-.re{
-    width: 150px;
-    height: 150px;
-}
+let r = document.querySelector(".intr")
 
-.t{
-    font-size: 25px;
-    color: #000000;
-}
 
-.menu{
-    display: flex;
-    justify-content: space-between;
-}
 
-.menu-item{
-    border: 3px solid #e39038;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 5px;
-    background-color: white;
-    cursor: pointer;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
+r.innerHTML = intr[m]
 
-.tex{
-font-size: 35px;
-}
 
-.se{
-    font-size: 35px;
-    text-align: center;
-}
+let day = document.querySelectorAll(".card")
+let menu = document.querySelectorAll(".menu-item")
+let main = document.querySelector(".main")
+let sypu = document.querySelector(".sypu")
+let card = document.querySelectorAll(".card")
+let syp = document.querySelectorAll(".syp")
+let salat = document.querySelectorAll(".salat")
+let salatu = document.querySelector(".salatu")
+let desertu = document.querySelector(".desertu")
+let desert = document.querySelectorAll(".desert")
+let vupichka2 = document.querySelector(".vupichka2")
+let vupichka = document.querySelectorAll(".vupichka")
+let napoi2 = document.querySelector(".napoi2")
+let napoi = document.querySelectorAll(".napoi")
+let t = document.querySelectorAll(".t")
+let vi = document.querySelectorAll(".vi")
+let o = document.querySelector("main")
+let int = document.querySelector(".int")
+let cen = document.querySelector(".cen")
 
-.intr{
-    text-align: center;
-    font-size: 30px;
-}
 
-.intresting{
-    background-color: white;
-    border: 3px solid #e39038;
-    border-radius: 10px;
+menu[0].addEventListener('click', function(){
+    salatu.style.display = "none"
+    desertu.style.display = "none"
+    vupichka2.style.display = "none"
+    napoi2.style.display = "none"
     
-}
+    int.style.display = "none"
+    cen.style.display = "none"
 
-.menu-item:hover{
-    transform: scale(0.89);
-    box-shadow:  10px 10px rgba(0, 0, 0, 0.1);
-    transition: 0.5s;
-}
+    for (let n = 0; n < card.length; n += 1){
+        card[n].style.display = "none"
+    }
+    
+    for(let m = 0; m < syp.length; m += 1){
+        syp[m].style.display = "block"
+    }
 
-.intresting:hover{
-    box-shadow:  10px 10px rgba(0, 0, 0, 0.1);
-    transform: scale(0.96);
-    transition: 0.3s;
-}
-
-.card{
-    background-color: white;
-    max-width: 420px;
-    min-height: 360px;
-    border-radius: 7px;
-    text-align: center;
-    cursor: pointer;
-    margin: 25px;
-}
-
-.pho{
-    width: 400px;
-    height: 250px;
-}
-
-.titlec{
-    color: lightskyblue;
-    font-size: 15px;
-    text-align: center;
-}
-
-.card-text{
-    font-size: 17px;
-    text-align: left;
-    position: absolute;
-}
-
-.ele{
-    margin: 20px;
-    padding: 7px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-}
-
-.card:hover{
-    box-shadow:  10px 10px rgba(0, 0, 0, 0.1);
-    transform: scale(1.07);
-    transition: 0.5s;
-}
-
-.sypu{
-    display: none;
-}
-
-.ele1{
-    margin: 10px;
-    padding: 7px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-
-}
+    sypu.style.display = "flex"
+})
 
 
-.main-div{
-    display: flex;
-}
+menu[1].addEventListener('click', function(){
+    sypu.style.display = "none"
+    desertu.style.display = "none"
+    vupichka2.style.display = "none"
+    napoi2.style.display = "none"
 
-.day{
-    margin-left: 30%;
-}
+    int.style.display = "none"
+    cen.style.display = "none"
 
-.salatu{
-    display: none;
-}
+    for (let n = 0; n < card.length; n += 1){
+        card[n].style.display = "none"
+    }
+    
+    for(let m = 0; m < salat.length; m += 1){
+        salat[m].style.display = "block"
+    }
 
-.desertu{
-    display: none;
-}
+    salatu.style.display = "flex"
+})
 
-.vupichka2{
-    display: none;
-}
+menu[2].addEventListener('click', function(){
+    salatu.style.display = "none"
+    sypu.style.display = "none"
+    vupichka2.style.display = "none"
+    napoi2.style.display = "none"
 
-.napoi2{
-    display: none;
-}
+    int.style.display = "none"
+    cen.style.display = "none"
 
+    for (let n = 0; n < card.length; n += 1){
+        card[n].style.display = "none"
+    }
+    
+    for(let m = 0; m < desert.length; m += 1){
+        desert[m].style.display = "block"
+    }
 
-.tex1{
-    margin: 5px;
-    font-size: 35px;
-    padding: 20px;
-    text-align: center;
-
-}
-
-
-.phovi{
-    width: 1100px;
-    height: 800px;
-    text-align: center;
-    display: block;
-}
-
-.pvi{
-    font-size: 30px;
-    margin-bottom: 10px;
-}
-
-.hvi{
-    font-size: 25px;
-}
-
-.ytoch{
-    font-size: 20px;
-}
-
-li{
-    font-size: 15px;
-}
-
-.vi{
-   display: none;
-   position: relative;
-}
-
-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-}
-
-con2{
-    position: relative;
-}
-
-.section{
-    margin-left: 20px;
-    flex: 1;
-}
-
-.colums{
-    display: flex;
-    gap: 30px;
-    margin-top: 10px;
-}
-
-.column{
-    flex: 1;
-}
+    desertu.style.display = "flex"
+})
 
 
+menu[3].addEventListener('click', function(){
+    salatu.style.display = "none"
+    desertu.style.display = "none"
+    sypu.style.display = "none"
+    napoi2.style.display = "none"
+
+    int.style.display = "none"
+    cen.style.display = "none"
+
+    for (let n = 0; n < card.length; n += 1){
+        card[n].style.display = "none"
+    }
+    
+    for(let m = 0; m < vupichka.length; m += 1){
+        vupichka[m].style.display = "block"
+    }
+
+    vupichka2.style.display = "flex"
+})
+
+menu[4].addEventListener('click', function(){
+    salatu.style.display = "none"
+    desertu.style.display = "none"
+    vupichka2.style.display = "none"
+    sypu.style.display = "none"
+
+    int.style.display = "none"
+    cen.style.display = "none"
+
+    for (let n = 0; n < card.length; n += 1){
+        card[n].style.display = "none"
+    }
+    
+    for(let m = 0; m < napoi.length; m += 1){
+        napoi[m].style.display = "block"
+    }
+
+    napoi2.style.display = "flex"
+})
+
+card[0].addEventListener('click', function(){
+    o.style.display = "none"
+
+
+    vi[0].style.display = "flex"
+})
+
+card[1].addEventListener('click', function(){
+    o.style.display = "none"
+
+    vi[1].style.display = "flex"
+})
+
+
+card[2].addEventListener('click', function(){
+    o.style.display = "none"
+
+    vi[2].style.display = "flex"
+})
+
+card[3].addEventListener('click', function(){
+    o.style.display = "none"
+
+    vi[3].style.display = "flex"
+})
+
+card[4].addEventListener('click', function(){
+    o.style.display = "none"
+
+    vi[4].style.display = "flex"
+})
+
+card[5].addEventListener('click', function(){
+    o.style.display = "none"
+
+    vi[5].style.display = "flex"
+})
+
+card[6].addEventListener('click', function(){
+    o.style.display = "none"
+
+    vi[6].style.display = "flex"
+})
+
+card[7].addEventListener('click', function(){
+    o.style.display = "none"
+
+    vi[7].style.display = "flex"
+})
+
+card[8].addEventListener('click', function(){
+    o.style.display = "none"
+
+    vi[8].style.display = "flex"
+})
+
+card[9].addEventListener('click', function(){
+    o.style.display = "none"
+
+    vi[9].style.display = "flex"
+})
+
+card[10].addEventListener('click', function(){
+    o.style.display = "none"
+
+    vi[10].style.display = "flex"
+})
